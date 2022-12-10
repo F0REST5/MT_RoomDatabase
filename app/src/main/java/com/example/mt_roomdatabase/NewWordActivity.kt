@@ -7,7 +7,7 @@ import android.text.TextUtils
 import android.widget.Button
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
-import com.example.mt_roompdatabase.R
+import com.example.mt_roomdatabase.R
 
 
 class NewWordActivity : AppCompatActivity() {
@@ -31,7 +31,6 @@ class NewWordActivity : AppCompatActivity() {
             finish()
         }
     }
-
     companion object {
         const val EXTRA_REPLY = "com.example.android.wordlistsql.REPLY"
     }
